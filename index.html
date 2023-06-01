@@ -10,11 +10,12 @@
   <!-- Open Graph tags  -->
   <meta property="og:title" content="cashify" />
   <meta property="og:description" content="Simple website" />
-  <meta property="og:image" content="https://martrzeciak.github.io/Optymalizacja-stron-internetowych/img/pageImage.png" />
+  <meta property="og:image"
+    content="https://martrzeciak.github.io/Optymalizacja-stron-internetowych/img/pageImage.png" />
   <meta property="og:url" content="https://martrzeciak.github.io/Optymalizacja-stron-internetowych/" />
   <meta property="og:type" content="website" />
 
-  <title>Simple landing page</title>
+  <title>cashify</title>
   <link rel="stylesheet" href="style.css" />
 
   <!-- Google tag (gtag.js) -->
@@ -23,8 +24,32 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-HQKTL883D3');
+  </script>
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "name": "cashify",
+      "image": "http://example.com/logo.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Main St",
+        "addressLocality": "City",
+        "addressRegion": "State",
+        "postalCode": "12345",
+        "addressCountry": "Country"
+      },
+      "description": "Simple website",
+      "telephone": "+1234567890",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1234567890",
+        "contactType": "customer support"
+      }
+    }
+    </script>
   </script>
 </head>
 
